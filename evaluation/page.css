@@ -1,0 +1,133 @@
+body{
+    font-family: Helvetica;
+    margin: 0;
+}
+.container{
+    padding: 25px 20px;
+}
+.header{
+   padding: 10px;
+}
+.text{
+    font-size: 25px;
+    padding-top: 170px  ;
+}
+.content{
+    padding-top: 20px;
+  
+}
+.option{
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 25px;
+    height: 80px;
+    border: 1px solid rgba(175, 175, 175,0.5);
+    border-radius: 35px;
+    align-items: center
+    margin: 10px 0 0 0;
+    color: rgb(163,163,163);
+}
+.message{
+    font-size: 30px;
+    margin: 0;
+    
+}
+
+.outil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h1{
+    font-size: 45px;
+    padding-top: 170px  ;
+}
+.button{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+.adulte{
+    width: 90px;
+    font-size: 13px;
+    padding: 6px 15px;
+    border-radius: 25px;
+    background-color: indigo;
+    padding-top: 15px;
+    margin: 45px;
+    color: white;
+    opacity: 0.5;
+
+}
+.enfant{
+    background-color: rgb(173, 171, 173, 0.959);
+    color: black;
+    font-size: 13px;
+    border-radius: 25px;
+    opacity: 0.5;
+    margin: 45px;
+     padding: 6px 15px;
+     width: 90px;
+      padding-top: 15px;
+}
+.maladie{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    border: 1px solid rgba(175, 175, 175,0.5);
+}
+.covid{
+    float: left; 
+        width: 50px; 
+        background: rgba(255, 108, 194, 0.959); 
+        padding: 150px;
+        margin:  50px; 
+        color:rgb(252, 249, 249); 
+        border-radius: 20px 20px 20px 20px;
+}
+.rhume{
+     float: left; 
+            width: 50px; 
+            background: rgba(210, 71, 252, 0.959); 
+            padding: 150px;
+            margin:  50px; 
+            color:rgb(255, 253, 253); 
+            border-radius: 20px 20px 20px 20px;
+}
+.toux{
+   float: left; 
+                width: 50px; 
+                background: rgba(252, 92, 44, 0.959); 
+                padding: 150px;
+                margin:  50px; 
+                color:rgb(255, 246, 246); 
+                border-radius: 20px 20px 20px 20px;
+}
+.h4{
+    font-size: 16px;
+}
+.icon-button{
+   background: transparent;
+   border: 1px solid rgba(175, 175, 175,0.5);
+   border-radius: 15px ;
+   padding: 10px;
+   margin-left: 10px;
+
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span{
+   color: black;
+}
+p{
+   color: rgb(173, 171, 173, 0.959);
+}
